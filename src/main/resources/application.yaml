@@ -1,0 +1,9 @@
+logging:
+  level:
+    reactor.netty: trace
+
+server:
+  address: localhost
+  port: 8080
+  http2:
+    enabled: false
